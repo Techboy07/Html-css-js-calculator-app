@@ -1,0 +1,31 @@
+    body {
+  background-color: darkviolet;
+}
+
+.cover {
+
+  background: palevioletred;
+  display: grid;
+  grid-template-row: repeat(6, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 3px;
+}
+
+#screenArea {
+  grid-area: 1/1/1/5;
+}
+
+#screenArea #screen {
+  display: block;
+  margin: auto;
+  width: 90%;
+  background: transparent;
+  border: none;
+}
+
+
+.btn {
+  background-color: darkred;
+  cursor: pointer;
+  height: 50px;
+}
