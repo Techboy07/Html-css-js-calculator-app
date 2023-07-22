@@ -1,6 +1,5 @@
 //variables
-let keys =
-  document.querySelectorAll(".num");
+let keys = document.querySelectorAll(".num");
 //  screens
 let screen = document.querySelector("#screen");
 let output = document.querySelector("#screen2");
@@ -160,15 +159,18 @@ float.addEventListener("click", () => {
 
 equalTo.addEventListener(
   "click", () => {
-    equalTo.innerText = "";
-    if (screen.value != "") {
+    if (screen.value != "" && evaluate(screen.value) != NaN) {
       output.value = evaluate(screen.value);
     }
-    equalTo.innerText = "=";
+    
   });
 
 //operator buttons
 
 swap(add, ["+", '-']);
 swap(multiply, ["*", '/']);
+<<<<<<< HEAD
 >>>>>>> 9c4f450 (main)
+=======
+
+>>>>>>> 1dc25eb (edited the js and css)
