@@ -16,12 +16,6 @@ let clear = document.querySelector("#clear");
 // decimal point
 const float = document.querySelector("#float");
 
-
-
-<<<<<<< HEAD
-     });
-=======
-
 //addition function
 function plus(str) {
   let arr = str.split("+");
@@ -162,15 +156,10 @@ equalTo.addEventListener(
     if (screen.value != "" && evaluate(screen.value) != NaN) {
       output.value = evaluate(screen.value);
     }
-    
+
   });
 
 //operator buttons
 
 swap(add, ["+", '-']);
 swap(multiply, ["*", '/']);
-<<<<<<< HEAD
->>>>>>> 9c4f450 (main)
-=======
-
->>>>>>> 1dc25eb (edited the js and css)
